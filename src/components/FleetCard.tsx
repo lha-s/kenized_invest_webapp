@@ -41,13 +41,13 @@ export function FleetCard({ fleet }: FleetCardProps) {
             <div>
               <p className="text-sm text-gray-500">Total Value</p>
               <p className="text-lg font-bold text-gray-900">
-                ${fleet.totalValue.toLocaleString()}
+                {fleet.totalValue.toLocaleString()} AED
               </p>
             </div>
             <div>
               <p className="text-sm text-gray-500">Token Price</p>
               <p className="text-lg font-bold text-blue-600">
-                ${fleet.tokenPrice}
+                {fleet.tokenPrice} AED
               </p>
             </div>
           </div>

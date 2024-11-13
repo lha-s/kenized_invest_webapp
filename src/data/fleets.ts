@@ -1,3 +1,7 @@
+import nissanImage from '../assets/images/nissan/nissan.png';
+import teslaImage from '../assets/images/tesla/tesla.png';
+import porscheImage from '../assets/images/porsche/porsche.png';
+
 // Define types for better type safety
 export interface Fleet {
   id: number;
@@ -33,9 +37,9 @@ export interface Fleet {
 const nissanFleet: Fleet = {
   id: 1,
   name: 'Nissan Sunny Fleet',
-  image: './assets/images/nissan/nissan.png',
+  image: nissanImage,
   totalValue: 450000,
-  tokenPrice: 25,
+  tokenPrice: 200,
   expectedReturn: {
     min: 5,
     max: 8
@@ -50,7 +54,7 @@ const nissanFleet: Fleet = {
     propertyType: 'Economy Fleet',
     fullAddress: 'Dubai, UAE',
     country: 'UAE',
-    source: 'FleetBlock',
+    source: 'Kenized',
     neighborhood: 'Dubai Marina',
     constructionYear: 2023,
     rentalType: 'Short Term',
@@ -62,9 +66,9 @@ const nissanFleet: Fleet = {
 const teslaFleet: Fleet = {
   id: 2,
   name: 'Tesla Model 3 Fleet',
-  image: './assets/images/tesla/tesla.png',
+  image: teslaImage,
   totalValue: 1250000,
-  tokenPrice: 50,
+  tokenPrice: 200,
   expectedReturn: {
     min: 7,
     max: 12
@@ -79,7 +83,7 @@ const teslaFleet: Fleet = {
     propertyType: 'Electric Premium Fleet',
     fullAddress: 'Los Angeles, USA',
     country: 'USA',
-    source: 'FleetBlock',
+    source: 'Kenized',
     neighborhood: 'Beverly Hills',
     constructionYear: 2024,
     rentalType: 'Long Term',
@@ -91,9 +95,9 @@ const teslaFleet: Fleet = {
 const porscheFleet: Fleet = {
   id: 3,
   name: 'Porsche GT3 RS Fleet',
-  image: './assets/images/porsche/porsche.png',
+  image: porscheImage,
   totalValue: 3500000,
-  tokenPrice: 100,
+  tokenPrice: 200,
   expectedReturn: {
     min: 15,
     max: 25
@@ -108,7 +112,7 @@ const porscheFleet: Fleet = {
     propertyType: 'Luxury Sport Fleet',
     fullAddress: 'Monaco',
     country: 'Monaco',
-    source: 'FleetBlock',
+    source: 'Kenized',
     neighborhood: 'Monte Carlo',
     constructionYear: 2024,
     rentalType: 'Short Term',

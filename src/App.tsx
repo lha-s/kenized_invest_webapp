@@ -5,7 +5,7 @@ import { FleetCard } from './components/FleetCard';
 import { Features } from './components/Features';
 import { Footer } from './components/Footer';
 import { Toaster } from 'react-hot-toast';
-import { FLEET_INVESTMENTS } from './data/fleets';
+import { FLEET_INVESTMENTS } from './data/fleets'; // {{ edit_1 }}
 
 function App() {
   return (
